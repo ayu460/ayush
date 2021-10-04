@@ -43,7 +43,7 @@ public class Stack<E>{
      }
      Node<E> toRemove=temp.next;
      temp.next=null;
-     return toRemove.data;
+     return toRemove.data; //returning data to delete
     }
     public static void main(String args[]){
        Stack<Integer> list=new Stack<Integer>();
