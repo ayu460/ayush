@@ -1,7 +1,7 @@
 // Stack implements
 package collection;
 public class Stack<E>{
-    Node<E> head;
+    Node<E> head; //creating head for stack
 
     public void push(E data){
         Node<E> toAdd=new Node<E>(data);
